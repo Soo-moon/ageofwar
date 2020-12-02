@@ -1,6 +1,6 @@
 package com.Doomoon;
 
-public class warr extends Unit{
+public class warrior extends Unit{
 
     @Override
     public void stat() {
