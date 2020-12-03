@@ -2,10 +2,11 @@ package com.Doomoon;
 
 import java.util.ArrayList;
 
-public class game extends Thread{
+public class GameThread extends Thread{
 
-    public game(){
+    public GameThread(){
         ArrayList<Unit> UnitBuff = new ArrayList();
+
 
 
     }

@@ -10,8 +10,8 @@
         android:id="@+id/warrior"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:layout_marginRight="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="40dp"
         android:text="전사"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -20,8 +20,8 @@
         android:id="@+id/Archer"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
         android:text="궁수"
         app:layout_constraintEnd_toStartOf="@+id/warrior"
         app:layout_constraintTop_toTopOf="parent" />
@@ -30,11 +30,51 @@
         android:id="@+id/Cavalry"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         android:layout_marginRight="10dp"
         android:text="기병"
         app:layout_constraintRight_toLeftOf="@+id/Archer"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="80dp">
+
+       <androidx.constraintlayout.widget.ConstraintLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <Button
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               app:layout_constraintTop_toTopOf="parent"
+               app:layout_constraintLeft_toLeftOf="parent"
+               app:layout_constraintBottom_toBottomOf="parent"
+               android:layout_marginTop="100dp"
+               android:layout_marginBottom="100dp"
+
+               >
+           </Button>
+
+
+       </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
