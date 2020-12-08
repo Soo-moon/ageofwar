@@ -1,5 +1,11 @@
 package com.Doomoon;
 
+import android.content.Context;
+import android.util.AttributeSet;
+import android.view.View;
+
+import androidx.annotation.Nullable;
+
 public abstract class Unit extends Thread{
 
 
@@ -8,21 +14,14 @@ public abstract class Unit extends Thread{
 
     int x, y ;
 
+
     public abstract void stat();
 
     public int move(){
-        if (x>500){
-         attack();
-        }
-        else{
-            x += speed;
-        }
+
         return x;
     }
 
 
-    public void attack(){
-
-    }
 
 }
